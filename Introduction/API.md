@@ -16,10 +16,14 @@ In order to interact with the Dashboard API, you must first obtain an API key.
 * Open your Meraki dashboard: [https://dashboard.meraki.com](https://account.meraki.com/login/dashboard_login?go=%2F)
 * Once logged in, navigate to the * Organization > Settings * page.
 * Ensure that the API Access is set to “Enable access to the Cisco Meraki Dashboard API”
+
 [](<img width="1092" alt="dashEnableOrgAPI" src="https://github.com/Dharm1104/meraki/assets/141824759/f8e140b1-774a-457b-bfb6-31475f536087">)
 Then go to your profile by clicking on your account email address (on the upper-right) > My profile to generate the API key.
+
 *save this key in a secure location, as it represents your admin credentials*
+
 [](<img width="372" alt="dashGenerateAPIkey" src="https://github.com/Dharm1104/meraki/assets/141824759/dea080ba-a2d3-4e6f-b2e3-61a3378a0dcc">)
+
 ## Troubleshooting ##
 If you get a 401 Unauthorized error (with message "Missing API key") when using dashboard API v1 with Bearer token, check the following to troubleshoot:
 1. As an example, when using your API key to retrieve the [GET /organizations](https://developer.cisco.com/meraki/api-v1/get-organizations/) endpoint, you should see the same data as shown when navigating to [https://api.meraki.com/api/v1/organizations](https://api.meraki.com/api/v1/organizations) in your browser, using an authenticated session with the credentials that generated the API key.

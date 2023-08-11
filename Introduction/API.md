@@ -8,7 +8,8 @@ A RESTful API to programmatically manage and monitor Meraki networks at scale.
 * Build your own dashboard for store managers, field techs, or unique use cases
 Checkout out the [Explore](https://developer.cisco.com/meraki/explore/) section for open source projects, or browse the [Marketplace](https://apps.meraki.io/en-US/home) for partner solutions.
 ## Authorization ##
-Dashboard API v1 supports Bearer Auth using the standard Authorization header parameter. The value will be a string that begins with the word Bearer, followed by your Meraki API key. 
+Dashboard API v1 supports Bearer Auth using the standard Authorization header parameter. The value will be a string that begins with the word Bearer, followed by your Meraki API key.
+
 ***Note:*** *When developing scripts, it's a best practice to create a local environment variable MERAKI_DASHBOARD_API_KEY and set it to your API key, so that you can omit it from your source code. Instructions vary by operating system, so please consult your OS vendor for more information.*
 ## Obtaining your Meraki API key ##
 In order to interact with the Dashboard API, you must first obtain an API key.
@@ -25,6 +26,7 @@ If you get a 401 Unauthorized error (with message "Missing API key") when using 
 2. Next, check that your API call has the correct header with the following (and not v0's 'X-Cisco-Meraki-API-Key')
 3. X-Cisco-Meraki-API-Key **--location-trusted** flag is included.
 4. If making the API call in Postman, check that the setting “_Follow Authorization header_” is enabled.
+   
 | Parameters | Description | Meraki Python library |
 |------------|-------------|-----------------------|
 |confirmed|Set to true for immediate execution. Set to false if the action should be previewed before executing.|

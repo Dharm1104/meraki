@@ -22,7 +22,7 @@ Then go to your profile by clicking on your account email address (on the upper-
 
 *save this key in a secure location, as it represents your admin credentials*
 
-[](<img width="372" alt="dashGenerateAPIkey" src="https://github.com/Dharm1104/meraki/assets/141824759/dea080ba-a2d3-4e6f-b2e3-61a3378a0dcc">)
+![](/images/dashGenerateAPIkey.png)
 
 ## Troubleshooting ##
 If you get a 401 Unauthorized error (with message "Missing API key") when using dashboard API v1 with Bearer token, check the following to troubleshoot:

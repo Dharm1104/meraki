@@ -17,7 +17,7 @@ In order to interact with the Dashboard API, you must first obtain an API key.
 * Once logged in, navigate to the * Organization > Settings * page.
 * Ensure that the API Access is set to “Enable access to the Cisco Meraki Dashboard API”
 
-[](images/dashEnableOrgAPI.png)
+![](/images/dashEnableOrgAPI.png)
 Then go to your profile by clicking on your account email address (on the upper-right) > My profile to generate the API key.
 
 *save this key in a secure location, as it represents your admin credentials*
